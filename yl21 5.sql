@@ -1,4 +1,4 @@
-SELECT SUM(price) AS Summa, count(*)
+SELECT round(SUM(price),2) AS Summa, count(*)
 AS Tellimuste_arv,
 YEAR(order_date)
 AS Aasta
